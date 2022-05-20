@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-top: 40px;
+    position: relative;
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    background: black;
+    position: relative;
+}

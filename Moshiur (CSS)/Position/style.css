@@ -1,0 +1,54 @@
+.class1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute; /*absolute for body*/
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; /*for middle*/
+}
+.class2{
+    width: 300px;
+    height: 200px;
+    background: green;
+    position: relative;
+}
+.class3{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+h2{
+    border: 5px solid yellow;
+    background: red;
+    font-family: sans-serif;
+    font-weight: 800;
+    position: sticky; /*for stop top side*/
+    top: 0;
+}
+.class5{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+    padding: 20px;
+}
+p{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    color: orange;
+    border: 3px solid green;
+    background: black;
+    padding: 5px;
+}

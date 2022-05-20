@@ -1,0 +1,23 @@
+.border{
+    border: 5px solid red;
+}
+.border1{
+    border: 10px ridge red;
+    padding: 10px 10px;
+}
+.border2{
+    border-width: 5px 10px;
+    border-style: dotted ridge dashed solid;
+    border-color: aqua red yellow green;
+}
+.border3{
+    border: 10px inset red;
+    padding: 20px 10px;
+    margin: 20px 20px;
+}
+.margin{
+    width: 50%;
+    height: 500px;
+    background: red;
+    margin: 0 auto;
+}

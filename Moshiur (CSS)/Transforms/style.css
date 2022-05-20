@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background: red;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 20px;
+    transform: translate(50px,50px) /* x & y okkho borabor kaj kore , jdi sudu x or jdi sudu y use kora lage tahole translatex() and translatey() aivabe use kora lagbe. moshiur r video ta dekhle e clr hoye jabe... translate r jaigay rotate,skew, scale use kora jay. */
+}

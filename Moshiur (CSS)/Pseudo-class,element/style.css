@@ -1,0 +1,19 @@
+h2:nth-child(3){   /*this is pesudo class*/
+    color: red;
+}
+h2:hover{
+    color: green;
+}
+
+
+/*pseudo element*/
+p::first-letter{
+    font-size: 50px;
+    color:red;
+}
+p::before{
+    content: url(chiken.jpg);
+}
+p::after{
+    content: url(chiken.jpg); /*je kno kisu add kora jay*/
+}

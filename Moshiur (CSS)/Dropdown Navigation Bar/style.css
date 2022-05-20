@@ -1,0 +1,39 @@
+ul{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+a{
+    color: darkcyan;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: inline-block;
+}
+a:hover{
+    background: red;
+    color: aqua;
+}
+.dropdown-content{
+    background: darkcyan ;
+    box-shadow: 0 8px 16px 0;
+    display: none;
+    position: absolute;
+}
+.dropdown-content a{
+    color: #333;
+    display:block;
+    padding: 20px;
+}
+.dropdown-content a:hover{
+    background: aqua;
+    color: red;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
